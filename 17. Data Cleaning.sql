@@ -172,7 +172,8 @@ AND percentage_laid_off is NULL;
 ALTER TABLE layoffs_staging2
 DROP COLUMN row_num;
 
-
+SELECT *
+FROM layoffs_staging2;
 
 
 
