@@ -91,3 +91,7 @@ SELECT season, total_players,
 SUM(total_players) OVER(ORDER BY season) as rolling_total
 FROM Rolling_Total;
 
+SELECT *
+FROM nba2;
+
+
